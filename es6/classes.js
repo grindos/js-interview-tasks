@@ -8,7 +8,7 @@
       this.name = name
     }
     MyConstructor.prototype.speak = function speak() {
-      console.log(this.name + ' make a noise.')
+      console.log(this.name + ' makes a noise.')
     }
     return MyConstructor
   })()
@@ -24,7 +24,7 @@
 // }
 //
 // Animal.prototype.speak = function () {
-//   console.log(this.name + ' make a noise')
+//   console.log(this.name + ' makes a noise')
 // }
 //
 // let animal = new Animal('Cat')
