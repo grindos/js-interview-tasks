@@ -1,4 +1,6 @@
-// ES5
+// ========== Multi-line strings ==========
+
+// ---------- ES5 ----------
 
 var template = '<li *ngFor="let todo of todos" [ngClass]="{completed: todo.isDone}" >\n' +
   '  <div class="view">\n' +
@@ -10,7 +12,7 @@ var template = '<li *ngFor="let todo of todos" [ngClass]="{completed: todo.isDon
   '</li>';
 console.log(template);
 
-// ES6
+// ---------- ES6 ----------
 
 // Use ` to create multi-line string instead of concat of several strings with '\n'.
 

@@ -1,4 +1,6 @@
-// ES5
+// ========== IIFE ==========
+
+// ---------- ES5 ----------
 
 {
   var priv = 1;
@@ -14,7 +16,7 @@ console.log(priv); // 1
 
 console.log(priv2); // Uncaught ReferenceError
 
-// ES6
+// ---------- ES6 ----------
 
 {
   let priv3 = 1

@@ -1,4 +1,6 @@
-// ES5
+// ========== Var vs. Let ==========
+
+// ---------- ES5 ----------
 
 var x = 'outer';
 function test(inner) {
@@ -29,7 +31,7 @@ console.log(test(true)); // inner
 // Declarations are hoisted.
 // Initializations are NOT hoisted.
 
-// ES6
+// ---------- ES6 ----------
 
 let x = 'outer'
 function test(inner) {
