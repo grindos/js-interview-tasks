@@ -1,10 +1,10 @@
 /*
-*  2. Implement string buffer using functions, with the next syntax:
-*
-*  Create buffer: var buffer = makeBuffer()
-*  Add value to buffer: buffer(value)
-*  Return buffer: buffer()
-*/
+ *  Implement string buffer using functions, with the next syntax:
+ *
+ *  Create buffer: var buffer = makeBuffer()
+ *  Add value to buffer: buffer(value)
+ *  Return buffer: buffer()
+ */
 
 function makeBuffer() {
   let buf = ''

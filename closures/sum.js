@@ -1,6 +1,6 @@
 /*
-*  1. Write sum function, which will work next way: sum.js(a)(b) = a + b.
-*/
+ *  Write sum function, which will work next way: sum.js(a)(b) = a + b.
+ */
 
 function sum(leftArg) {
   return function (rightArg) {
