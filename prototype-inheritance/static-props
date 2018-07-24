@@ -1,0 +1,25 @@
+/*
+ * Create Article constructor function which will save count of created articles and date of last created one.
+ * Then add to it static method which print these data.
+ */
+
+function Article () {
+  Article.counter++
+  Article.lastDate = new Date()
+}
+
+Article.counter = 0
+Article.lastDate = new Date(0)
+Article.showStats = function () {
+  console.log(Article.counter)
+  console.log(Article.lastDate)
+}
+
+let first = new Article()
+let second = new Article()
+
+Article.showStats()
+
+let third = new Article()
+
+Article.showStats()
