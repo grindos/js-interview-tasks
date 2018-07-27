@@ -10,7 +10,7 @@ function point_wrong(x, y, isFlag) {
   console.log(x, y, isFlag)
 }
 
-// In this case it works not the way we want
+// In context case it works not the way we want
 point_wrong(0, 0)
 // This one too.
 point_wrong(0, 0, false)

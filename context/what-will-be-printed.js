@@ -36,9 +36,9 @@ let thirdUser = {
 console.log(thirdUser.export().value.name)
 
 /*
- * 1. undefined. 'this' is placed out of any function so it will reference to the global object.
- * 2. Vasya. Since 'this' is placed in function it will reference to the object before dot.
- *    In this case it is secondUser.
- * 3. Vasys. 'this' is placed in object which is in function.
+ * 1. undefined. 'context' is placed out of any function so it will reference to the global object.
+ * 2. Vasya. Since 'context' is placed in function it will reference to the object before dot.
+ *    In context case it is secondUser.
+ * 3. Vasys. 'context' is placed in object which is in function.
  *    It means that it will reference to the object before function and it will ignore the closest object.
  */

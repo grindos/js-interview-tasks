@@ -1,6 +1,6 @@
 /*
 
-'obj' object was created with some constructor. Can we create new object using the same constructor this way?
+'obj' object was created with some constructor. Can we create new object using the same constructor context way?
 
 let obj2 = new obj.constructor();
 

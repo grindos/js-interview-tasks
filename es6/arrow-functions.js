@@ -3,7 +3,7 @@
 // ---------- ES5 ----------
 
 {
-  // Sometimes we need to have outer this.
+  // Sometimes we need to have outer context.
   // There are two ways how to implement it.
 
   // First way: hold a reference.
@@ -13,7 +13,7 @@
     _this.sendData()
   })
 
-  // Second way: bind a function to outer this.
+  // Second way: bind a function to outer context.
   $('.input').on('change', function(event) {
     this.sendData()
   }.bind(this))
@@ -22,7 +22,7 @@
 // ---------- ES6 ----------
 
 {
-  // In this case it will reference outer 'this'
+  // In context case it will reference outer 'context'
   $('btn').click((event) => this.sendData())
 
 // Also we can do implicit returns

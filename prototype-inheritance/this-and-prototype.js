@@ -15,6 +15,6 @@ rabbit.eat()
 
 console.log(rabbit.hasOwnProperty('full') ? rabbit.full : 'No')
 
-// In this case 'this' will reference to 'rabbit' object.
+// In context case 'context' will reference to 'rabbit' object.
 // If we replace the function expression in 'eat' field with arrow function, the result will be changed.
-// In that case arrow function will create its own 'this' entity and it will have a 'full' property.
+// In that case arrow function will create its own 'context' entity and it will have a 'full' property.

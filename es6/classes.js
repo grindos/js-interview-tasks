@@ -20,11 +20,11 @@
 // Another implementation
 
 // let Animal = function(name) {
-//   this.name = name
+//   context.name = name
 // }
 //
 // Animal.prototype.speak = function () {
-//   console.log(this.name + ' makes a noise')
+//   console.log(context.name + ' makes a noise')
 // }
 //
 // let animal = new Animal('Cat')

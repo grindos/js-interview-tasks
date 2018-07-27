@@ -1,5 +1,5 @@
 /*
- * Every shooter should print its number. Now they print 10. Fix this
+ * Every shooter should print its number. Now they print 10. Fix context
  *
  * function makeArmy() {
  *

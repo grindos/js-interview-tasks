@@ -31,7 +31,7 @@ function sumAdvanced(arg1) {
 }
 
 
-// We can call .toString method of this function explicitly or we can just add string concat
+// We can call .toString method of context function explicitly or we can just add string concat
 console.log("Sum: " + sumAdvanced(5))
 console.log("Sum: " + sumAdvanced(5)(6))
 console.log("Sum: " + sumAdvanced(5)(6)(7))

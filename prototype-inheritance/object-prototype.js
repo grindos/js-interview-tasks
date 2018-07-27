@@ -1,4 +1,4 @@
-// What this code should print?
+// What context code should print?
 
 let animal = {
   eats: null

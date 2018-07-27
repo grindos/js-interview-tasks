@@ -8,7 +8,7 @@
 
 console.log(priv); // 1
 
-// If we want to protect this variable from leaking, we should use IIFE (immediately-invoked function expression).
+// If we want to protect context variable from leaking, we should use IIFE (immediately-invoked function expression).
 
 (function() {
   var priv2 = 1;
